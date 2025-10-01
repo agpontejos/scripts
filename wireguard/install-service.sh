@@ -9,7 +9,7 @@ if [ "$EUID" -ne 0 ]; then
    exit 1
 fi
 
-# Create init.d service for Ubuntu 14.04
+# Create init.d service for Ubuntu 16.04
 cat > /etc/init.d/wireguard << 'SCRIPT_END'
 #!/bin/sh
 ### BEGIN INIT INFO
